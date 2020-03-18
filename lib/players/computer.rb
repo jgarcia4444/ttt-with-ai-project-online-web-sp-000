@@ -3,6 +3,7 @@ module Players
     def move(board)
       board.display
       valid_move_array = []
+      sleep(1.5)
       board.cells.each_with_index do |ele, i|
         i_move = i + 1
         if board.valid_move?(i_move)

@@ -1,6 +1,7 @@
 module Players
 
-  class
+  class Computer
+    
   end
 
 end

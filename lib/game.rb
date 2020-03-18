@@ -79,6 +79,8 @@ class Game
 
     loop do
       turn
+      if over?
+      end
     end
   end
 

@@ -7,7 +7,7 @@ module Players
       board.cells.each_with_index do |ele, i|
         i_move = i + 1
         if board.valid_move?(i_move)
-          valid_move_array << i_move.to_i
+          valid_move_array << i_move.to_s
         end
       end
       print valid_move_array

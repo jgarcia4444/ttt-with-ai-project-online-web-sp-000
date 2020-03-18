@@ -11,6 +11,8 @@ if number_of_players == "0"
 elsif number_of_players == "1"
   puts "Would you like to go first and be X or do you want the computer to? (human, computer): "
   user_input = gets.strip.downcase
+  if user_input == "human"
+  end
   Game.new()
 elsif number_of_players == "2"
 end

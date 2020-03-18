@@ -12,7 +12,10 @@ elsif number_of_players == "1"
   puts "Would you like to go first and be X or do you want the computer to? (human, computer): "
   user_input = gets.strip.downcase
   if user_input == "human"
+  elsif user_input == "computer"
+  else
+    puts "The input you entered is invalid, so the computer will go first and be X"
+    Game.new(Players::Computer.new("X"), Players::Human.new("O"), Board.new)
   end
-  Game.new()
 elsif number_of_players == "2"
 end

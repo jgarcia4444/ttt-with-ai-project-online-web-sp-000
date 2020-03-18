@@ -1,7 +1,7 @@
 module Players
 
-  class Computer
-    
+  class Computer < PLayer
+
   end
 
 end

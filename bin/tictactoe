@@ -2,4 +2,6 @@
 
 require_relative '../config/environment'
 
-puts "Hello welcome to Jake's Tic Tac Toe"
+puts "Hello welcome to Jake's Tic Tac Toe!"
+puts "How many players will be playing? (0, 1, 2): "
+number_of_players = gets.strip

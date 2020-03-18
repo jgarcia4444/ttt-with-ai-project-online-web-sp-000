@@ -5,10 +5,9 @@ require_relative '../config/environment'
 puts "Hello welcome to Jake's Tic Tac Toe!"
 puts "How many players will be playing? (0, 1, 2): "
 number_of_players = gets.strip
-puts "Who will go first and be X?: (1, 2)"
-player_1 = gets.strip
+puts "Who will go first and be X?: "
 if number_of_players == "0"
-  Game.new()
+  Game.new(Players::Computer.new("X"))
 elsif number_of_players == "1"
 elsif number_of_players == "2"
 end

@@ -3,8 +3,7 @@ module Players
   class Computer < Player
 
     def move(board)
-      board.map_with_index do |ele, i|
-      end
+      valid_move_array = []
     end
 
   end

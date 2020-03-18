@@ -77,6 +77,9 @@ class Game
 
   def play
 
+    loop do
+      turn
+    end
   end
 
 end

@@ -83,6 +83,8 @@ class Game
         break
       end
     end
+    if won?
+    end
   end
 
 end

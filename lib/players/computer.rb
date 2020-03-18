@@ -10,6 +10,7 @@ module Players
           valid_move_array << i_move.to_i
         end
       end
+      valid_move_array
     end
 
   end

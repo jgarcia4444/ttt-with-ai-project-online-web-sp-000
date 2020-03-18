@@ -76,7 +76,6 @@ class Game
   end
 
   def play
-
     loop do
       turn
       if over?
@@ -85,10 +84,9 @@ class Game
     end
     if won?
       winning_token = winner
-      puts "Congratulations #{winning_token}"
+      puts "Congratulations #{winning_token}!"
     elsif draw?
       puts "Cat's Game!"
     end
   end
-
 end

@@ -84,6 +84,8 @@ class Game
       end
     end
     if won?
+      winning_token = winner
+      puts "Congratulations #{winning_token}"
     end
   end
 

@@ -1,7 +1,7 @@
 module Players
   class Computer < Player
     def move(board)
-      board.diplay
+      board.display
       valid_move_array = []
       board.cells.each_with_index do |ele, i|
         i_move = i + 1

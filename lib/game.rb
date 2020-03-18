@@ -81,7 +81,7 @@ class Game
     end
     if won?
       winning_token = winner
-      @board.diplay
+      @board.display
       puts "Congratulations #{winning_token}!"
     elsif draw?
       puts "Cat's Game!"

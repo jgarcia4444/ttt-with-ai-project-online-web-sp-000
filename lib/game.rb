@@ -80,6 +80,7 @@ class Game
     loop do
       turn
       if over?
+        break
       end
     end
   end

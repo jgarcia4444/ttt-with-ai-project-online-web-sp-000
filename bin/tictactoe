@@ -7,7 +7,8 @@ puts "How many players will be playing? (0, 1, 2): "
 number_of_players = gets.strip
 if number_of_players == "0"
   puts "Alright, have fun watching two programs play each other!"
-  Game.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new)
+  game = Game.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new)
+  game.play
 elsif number_of_players == "1"
   puts "Would you like to go first and be X or do you want the computer to? (human, computer): "
   user_input = gets.strip.downcase

@@ -8,7 +8,7 @@ module Players
           return i_move.to_s
         end
       end
-      valid_move_array
+      # valid_move_array
     end
   end
 end

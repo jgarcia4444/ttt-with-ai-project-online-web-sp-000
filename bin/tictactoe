@@ -9,6 +9,7 @@ if number_of_players == "0"
   puts "Alright, have fun watching two programs play each other!"
   Game.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new)
 elsif number_of_players == "1"
+  puts "Would you like to go first and be X or do you want the computer to? (human, computer): "
   Game.new()
 elsif number_of_players == "2"
 end

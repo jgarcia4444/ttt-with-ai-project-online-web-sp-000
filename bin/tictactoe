@@ -26,4 +26,5 @@ elsif number_of_players == "1"
 elsif number_of_players == "2"
   puts "Whoever makes the first move will be player 1 and X"
   game = Game.new(Players::Human("X"), Players::Human("O"), Board.new)
+  game.play
 end

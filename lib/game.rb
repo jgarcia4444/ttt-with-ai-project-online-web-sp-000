@@ -77,6 +77,7 @@ class Game
 
   def play
     while !over?
+      turn
     end
     if won?
       winning_token = winner

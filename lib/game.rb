@@ -86,6 +86,8 @@ class Game
     if won?
       winning_token = winner
       puts "Congratulations #{winning_token}"
+    elsif draw?
+      puts "Cat's Game!"
     end
   end
 
